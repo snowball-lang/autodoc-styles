@@ -15,8 +15,22 @@ sidenav {
     height: 100vh;
     background-color: #222;
     padding: 0 20px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
+}
+
+main {
+    margin: 0 30px;
+    margin-top: 30px;
+
+    width: 70%;
+    position: relative;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #2e2e2e;
+    margin: 20px 0;
 }
 
 h1 {
@@ -44,9 +58,19 @@ code {
     font-size: 16px;
     line-height: 1.75;
     color: #ddd;
-    background-color: #333;
+    background-color: #1a1a1a;
 
     border-radius: 2px;
     max-width: 400px;
     width: 100%;
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #335e96;
+    text-decoration: underline;
 }
