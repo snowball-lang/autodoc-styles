@@ -36,7 +36,10 @@ main {
     margin-top: 30px;
 
     width: 70%;
+    height: 100%;
     position: relative;
+    overflow-y: scroll;
+    overflow-x: auto;
 }
 
 hr {
@@ -91,7 +94,6 @@ a:hover {
     padding-left: 0 30px;
     margin: 0 auto;
     height: 100%;
-    overflow-y: scroll;
 }
 
 quote {
