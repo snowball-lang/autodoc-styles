@@ -59,12 +59,13 @@ h4 {
     font-weight: bold;
 }
 
-div > code {
+div:has(> code) {
     background-color: #1a1a1a;
     border-radius: 2px;
     max-width: 400px;
     width: 100%;
     padding: 2px;
+    width: 100%;
 }
 
 code {
@@ -83,4 +84,9 @@ a:hover {
 
 .doc {
     margin-left: 10px;
+}
+
+quote {
+    font-style: italic;
+    color: #646464;
 }
