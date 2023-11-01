@@ -69,11 +69,13 @@ h4 {
     font-weight: bold;
 }
 
-div:has(> code) {
-    background-color: #2A2A2A;
+div:has(> code),
+.hljs {
+    background-color: #2A2A2A !important;
     border-radius: 5px;
     width: 100%;
     padding: 10px 15px;
+    color: #ddd !important;
 }
 
 code {
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .doc {
-    padding-left: 0 30px;
+    padding-left: 20px;
     margin: 0 auto;
     height: 100%;
 }
