@@ -27,9 +27,8 @@ sidenav {
 }
 
 sidenav > h1:first-child {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 sidenav a {
