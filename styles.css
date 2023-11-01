@@ -59,16 +59,18 @@ h4 {
     font-weight: bold;
 }
 
-code {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 16px;
-    line-height: 1.75;
-    color: #ddd;
+div > code {
     background-color: #1a1a1a;
-
     border-radius: 2px;
     max-width: 400px;
     width: 100%;
+    padding: 2px;
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    color: #ddd;
 }
 
 a {
@@ -77,4 +79,8 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.doc {
+    margin-left: 10px;
 }
