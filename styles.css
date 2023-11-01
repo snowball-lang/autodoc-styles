@@ -102,3 +102,20 @@ quote {
     font-style: italic;
     color: #646464;
 }
+
+&::-webkit-scrollbar,
+& *::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+&::-webkit-scrollbar-track,
+& *::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+&::-webkit-scrollbar-thumb,
+& *::-webkit-scrollbar-thumb {
+    background: #757575;
+    border-radius: 10px;
+}
