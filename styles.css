@@ -24,6 +24,7 @@ sidenav {
     padding: 20px;
     padding-top: 25px;
     overflow: hidden;
+    overflow-y: auto;
 }
 
 sidenav > h1:first-child {
