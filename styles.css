@@ -98,10 +98,6 @@ h4 {
     font-weight: 600;
     font-size: 12px;
     height: fit-content;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 div:has(> code),
