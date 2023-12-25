@@ -27,7 +27,7 @@ sidenav {
     overflow: hidden;
     overflow-y: auto;
     color: #333;
-    border-right: 1px solid rgb(75 85 99);
+    border-right: 1px solid rgb(156 163 175);
 }
 
 sidenav > h1:first-child {
@@ -89,11 +89,12 @@ h4 {
 div:has(> code),
 .doc pre:has(> code),
 .hljs {
-    background-color: #2A2A2A !important;
+    background-color: #afafaf !important;
     border-radius: 5px !important;
     width: 100% !important;
     padding: 10px 15px !important;
-    color: #ddd;
+    color: #272727;
+    font-weight: 600;
 }
 
 .doc pre:has(> code) {
