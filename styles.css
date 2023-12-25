@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.75;
     color: #333;
-    background-color: rgb(209 213 219);
+    background-color: #D6DADF;
     display: flex;
     overflow: hidden;
 }
@@ -20,7 +20,7 @@ sidenav {
     flex-direction: column;
     width: 450px;
     height: 100vh;
-    background-color: #D6DADF;
+    background-color: rgb(209 213 219);
     padding: 20px;
     padding-top: 25px;
     box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
@@ -60,7 +60,7 @@ main {
 hr {
     border: 0;
     height: 1px;
-    background-color: #797979;
+    background-color: #cfcfcf;
     margin: 20px 0;
 }
 
