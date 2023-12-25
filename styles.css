@@ -48,7 +48,6 @@ sidenav a:not(:first-of-type) {
 
 main {
     margin: 0 30px;
-    margin-top: 30px;
 
     width: 70%;
     height: 100vh;
