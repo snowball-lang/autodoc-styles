@@ -7,6 +7,8 @@ function md2html() {
         const html = converter.makeHtml(text);
         selector.innerHTML = html;
     }
+
+    hljs.highlightAll();
 }
 
 window.addEventListener("load", md2html);
