@@ -96,8 +96,12 @@ h4 {
     padding: 2px 5px;
     margin-left: 10px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div:has(> code),
