@@ -89,7 +89,7 @@ h4 {
 div:has(> code),
 .doc pre:has(> code),
 .hljs {
-    background-color: #afafaf !important;
+    background-color: rgb(241 245 249) !important;
     border-radius: 5px !important;
     width: 100% !important;
     padding: 10px 15px !important;
