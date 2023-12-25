@@ -9,8 +9,8 @@ body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
     line-height: 1.75;
-    color: #ddd;
-    background-color: #333;
+    color: #333;
+    background-color: #fff;
     display: flex;
     overflow: hidden;
 }
@@ -26,6 +26,7 @@ sidenav {
     box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
     overflow: hidden;
     overflow-y: auto;
+    color: #333;
 }
 
 sidenav > h1:first-child {
@@ -59,7 +60,7 @@ main {
 hr {
     border: 0;
     height: 1px;
-    background-color: #646464;
+    background-color: #797979;
     margin: 20px 0;
 }
 
@@ -84,6 +85,7 @@ h4 {
 }
 
 div:has(> code),
+.doc pre > code,
 .hljs {
     background-color: #2A2A2A !important;
     border-radius: 5px !important;
@@ -95,7 +97,7 @@ div:has(> code),
 code {
     font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
-    color: #ddd;
+    color: #252424;
 }
 
 a {
@@ -104,6 +106,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: #646464;
 }
 
 .doc {
