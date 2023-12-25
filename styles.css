@@ -85,6 +85,10 @@ h4 {
     font-weight: bold;
 }
 
+.doc p {
+    font-weight: 500;
+}
+
 div:has(> code),
 .doc pre:has(> code),
 .hljs {
