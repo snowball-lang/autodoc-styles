@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.75;
     color: #333;
-    background-color: #f3f3f3;
+    background-color: #fff;
     display: flex;
     overflow: hidden;
 }
@@ -20,14 +20,14 @@ sidenav {
     flex-direction: column;
     width: 350px;
     height: 100vh;
-    background-color: rgb(209 213 219);
+    background-color: #F9FAFC;
     padding: 20px;
     padding-top: 25px;
     box-shadow: inset 0 0px 6px 0 rgb(0 0 0 / 0.1);
     overflow: hidden;
     overflow-y: auto;
     color: #333;
-    border-right: 1px solid rgb(156 163 175);
+    border-right: 1px solid #FEFFFF;
 }
 
 sidenav > h1:first-child {
@@ -89,7 +89,7 @@ h4 {
 div:has(> code),
 .doc pre:has(> code),
 .hljs {
-    background-color: rgb(241 245 249) !important;
+    background-color: #F9FAFC !important;
     border-radius: 5px !important;
     width: 100% !important;
     padding: 10px 15px !important;
